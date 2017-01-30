@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+<form action="" method="post">
+FIRST NAME<input type="text">.'<BR />'
+LAST NAME<input type="text">.'<br />'
+<input type="submit" value="submit">
+</form>
+</body>
+</html>

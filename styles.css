@@ -1,0 +1,375 @@
+body{
+background-color:#a08c68 ;
+
+}
+
+
+  
+/*TABBAR*/
+.upper{
+    background-color:#2f3237;
+	color:white;
+	margin-left:10px;
+	margin-top:-19px;
+	
+}
+.upper:hover{
+color:white;
+}
+/*FINISH*/
+
+
+.img
+{
+margin-right:100px;
+margin-bottom:10px;
+}
+
+
+.other{
+background-color:#fff;
+}
+
+#cssmenu {
+  padding: 0;
+  margin-left:-10px;
+  border: 0;
+  line-height: 1;
+  margin-top:-10px;
+}
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+}
+#cssmenu ul li {
+  float: left;
+  min-height: 1px;
+  line-height: 1em;
+  vertical-align: middle;
+  position: relative;
+}
+#cssmenu ul li.hover,
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#cssmenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu ul ul li {
+  float: none;
+}
+#cssmenu ul ul ul {
+  top: -2px;
+  right: 0;
+}
+#cssmenu ul li:hover > ul {
+  visibility: visible;
+}
+#cssmenu ul ul {
+  top: 1px;
+  left: 99%;
+}
+#cssmenu ul li {
+  float: none;
+}
+#cssmenu ul ul {
+  margin-top: 1px;
+}
+#cssmenu ul ul li {
+  font-weight: normal;
+}
+/* Custom CSS Styles */
+#cssmenu {
+  width: 200px;
+  background: #333333;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  zoom: 1;
+  font-size: 12px;
+}
+#cssmenu:before {
+  content: '';
+  display: block;
+}
+#cssmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu a {
+  display: block;
+  padding: 15px 20px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#cssmenu > ul {
+  width: 200px;
+}
+#cssmenu ul ul {
+  width: 200px;
+}
+#cssmenu > ul > li > a {
+  border-right: 4px solid #1b9bff;
+  color: #ffffff;
+}
+#cssmenu > ul > li > a:hover {
+  color: #ffffff;
+}
+#cssmenu > ul > li.active a {
+  background: #1b9bff;
+}
+#cssmenu > ul > li a:hover,
+#cssmenu > ul > li:hover a {
+  background: #1b9bff;
+}
+#cssmenu li {
+  position: relative;
+}
+#cssmenu ul li.has-sub > a:after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -6px;
+}
+#cssmenu ul ul li.first {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+}
+#cssmenu ul ul li.last {
+  -webkit-border-radius: 0 0 3px 0;
+  -moz-border-radius: 0 0 3px 0;
+  border-radius: 0 0 3px 0;
+  border-bottom: 0;
+}
+#cssmenu ul ul {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+#cssmenu ul ul {
+  border: 1px solid #0082e7;
+}
+#cssmenu ul ul a {
+  font-size: 12px;
+  color: #ffffff;
+}
+#cssmenu ul ul a:hover {
+  color: #ffffff;
+}
+#cssmenu ul ul li {
+  border-bottom: 1px solid #0082e7;
+}
+#cssmenu ul ul li:hover > a {
+  background: #4eb1ff;
+  color: #ffffff;
+}
+#cssmenu.align-right > ul > li > a {
+  border-left: 4px solid #1b9bff;
+  border-right: none;
+}
+#cssmenu.align-right {
+  float: right;
+}
+#cssmenu.align-right li {
+  text-align: right;
+}
+#cssmenu.align-right ul li.has-sub > a:before {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -6px;
+}
+#cssmenu.align-right ul li.has-sub > a:after {
+  content: none;
+}
+#cssmenu.align-right ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: 598;
+  width: 100%;
+}
+#cssmenu.align-right ul ul li.first {
+  -webkit-border-radius: 3px 0 0 0;
+  -moz-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+#cssmenu.align-right ul ul li.last {
+  -webkit-border-radius: 0 0 0 3px;
+  -moz-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+}
+#cssmenu.align-right ul ul {
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/*FINISH*/
+
+
+
+
+
+
+
+
+
+
+
+/*IMAGE SLIDER PROPERTIES*/
+
+body{padding-top:20px;}
+.container
+{
+
+margin-left:-60px;
+
+}
+.carousel {
+    margin-top:10px; 
+    margin-bottom: 0;
+    padding: 0 28px 30px 28px;
+	height:200px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 70px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+
+
+
+/*FINISH*/
+
+
+
+
+
+
+
+/*COMMENT IN SLIDER*/
+.comment h2{
+		bottom: 0;
+		font-size: 12px;
+		height: 22px;
+		margin: 8px 0 0;
+	}
+
+.comment .duration{
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	left: 12px;
+	line-height: 13px;
+	padding: 2px 3px 1px;
+	position: absolute;
+	top: 12px;
+}
+.comment a:hover .duration{
+	background-color:#000;
+	transition:all 500ms ease;
+}
+
+/*FINISH*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SCROLL BAr*/
+
+.scrollbar{
+width:150px;
+height:590px;
+margin-top:40px;
+margin-left:40px;
+overflow-y:scroll;
+float:left;
+}
+
+
+
+
+#ex3::-webkit-scrollbar{
+width:8px;
+background-color:#cccccc;
+} 
+
+#ex3::-webkit-scrollbar-thumb{
+background-color:#0082e7;
+border-radius:;
+}
+#ex3::-webkit-scrollbar-thumb:hover{
+background-color:#0082e7;
+border:1px solid black;
+}
+#ex3::-webkit-scrollbar-thumb:active{
+background-color:#0082e7;
+border:1px solid gblack;
+} 
+
+#ex3::-webkit-scrollbar-track{
+border:;
+border-radius:0px;
+-webkit-box-shadow:0 0 6px gray inset;
+} 
+
+
+/*SCROLL BAr finish*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

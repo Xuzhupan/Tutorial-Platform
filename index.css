@@ -1,0 +1,264 @@
+
+/*PRE LOADER*/
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('image/724.gif') 50% 50% no-repeat rgb(249,249,249);
+	background-color:#161616;
+}
+
+/*FINISH*/
+
+
+
+
+
+/*BODY*/
+
+body  
+{
+    
+	    background: url("image/now.jpg") no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+	margin-right:100px
+	
+}
+
+
+/*FINISH*/
+
+
+
+
+/*TABBAR*/
+.upper
+{
+    background-color:#b1e1ed;
+
+}
+
+/*FINISH*/
+
+.upper:hover
+{
+color:#fff;
+}
+
+
+/*CIRLE GRAPHICS*/
+.destacados{
+    padding: 20px 0;
+	text-align: center;
+}
+.destacados > div > div{
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+.destacados > div:hover > div{
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.1);
+	transition: 0.5s;
+}
+
+/*FINISH*/
+
+
+
+
+
+
+
+
+/* MAIN HEADING 1ST PAGE*/
+
+.hero h1{
+    font-size: 4em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+	color:white;
+}
+
+
+.hero1 h6{
+    font-size: 2em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+	color:white;
+}
+
+/*FINISH*/
+
+/*FOR SHADOW OF FOOTER 1*/
+.overlay 
+{
+    position: absolute;
+    width: 1415px;
+    height: 630px;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .02;
+	margin-top:80px;
+}
+
+/*FINISH*/
+
+
+
+
+
+/*FONT footer1*/
+
+.fontu1 h1
+{
+    font-size: 35px;  
+    margin: 0;
+    padding: 0;
+	color:grey;
+
+}
+
+.fontu1 h4
+{
+
+    font-size: 24px;    
+    margin: 0;
+    padding: 0;
+	color:grey;
+
+}
+
+/*FINISH*/
+
+
+
+
+
+
+#fotter1
+{
+color:#f0f0f0;
+background-color:white ;
+height:680px;
+text-align:center;
+margin:-50px;
+margin-top:80px;
+
+}
+
+
+
+
+
+
+
+
+#fotter2
+{
+
+
+
+    background: url("image/hero3.jpg") no-repeat center center fixed #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+color:#f0f0f0;
+height:850px;
+text-align:center;
+margin:-50px;
+margin-top:0px;
+
+
+}
+
+
+
+
+
+
+
+
+#fotter3
+{
+color:#f0f0f0;
+background-color:  #C9CFC9   ;
+height:250px;
+text-align:center;
+margin:-50px;
+margin-top:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#fotter4
+{
+
+height:100px;
+background-color:#008e90;
+margin-top:50px;
+margin-right:-35px;
+
+
+}
+
+
+
+
+#fotter5
+{
+color:#f0f0f0;
+background-color: black;
+height:30px;
+text-align:center;
+margin:-50px;
+margin-top:-10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*BACK TO TOP*/
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+/*FINISH*/
+
+
+
+
+
+
